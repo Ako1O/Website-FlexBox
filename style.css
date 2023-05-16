@@ -1,0 +1,110 @@
+@import "reset.css";
+
+h1 {
+	font-size: 52px;
+}
+
+body {
+	background-color: #161616;
+	font-family: roboto;
+	font-size: 20px;
+	color: #DFDEDF;
+}
+
+section {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.hero {
+	font-size: 140px;
+	display: flex;
+}
+
+.hero__img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hero__one {
+	margin-top: 60px;
+	float: left;
+}
+
+.hero__margin {
+	margin-top: 440px;
+}
+
+.hero__two {
+	margin-top: 60px;
+	float: right;
+}
+
+.after-hero {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.giff {
+	margin-top: 140px;
+	margin-bottom: 140px;
+}
+
+.after-hero__img {
+	
+}
+
+.menu {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.menu__right {
+	float: right;
+}
+
+.info {
+	margin-bottom: 140px;
+	display: flex;
+    justify-content: space-between;
+}
+
+.info__banner {
+	margin-top: 100px;
+}
+
+.info__more {
+	float: right;
+	margin-top: 80px;
+}
+
+.love {
+	justify-content: flex-end;
+	display: flex;
+	margin-bottom: 140px;
+}
+
+.love__left {
+	margin-right: 64px;
+}
+
+.love__text {
+	margin-top: 320px;
+}
+
+.end {
+	margin-bottom: 100px;
+	border: 6px solid #DFDEDF;
+  	border-bottom-width: 0;
+}
+
+.footer {
+	color: #969896;
+	display: flex;
+	margin-bottom: 100px;
+	align-items: center;
+    justify-content: space-between;
+}
